@@ -19,3 +19,6 @@ console.log(Math.pow(4, 2));
 
 console.log(Math.random());
 console.log(Math.trunc(Math.random() * 100)); // random from 0 to 99
+
+console.log(Math.min(1, 3, 232, -109, 465));
+console.log(Math.max(1, 3, 232, -109, 465));
