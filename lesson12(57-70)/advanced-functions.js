@@ -8,3 +8,12 @@ function sayHello(name, age) {
 
 sayHello("Hamza", 18);
 sayHello("Osama", 45);
+
+function generateYears(start, end, exclude) {
+  for (let i = start; i <= end; i++) {
+    if (i === exclude) continue;
+    console.log(i);    
+  }
+}
+
+generateYears(2020, 2026, 2022)
