@@ -10,3 +10,5 @@ function scope() {
 
 console.log(`from global ${a}`);
 console.log(`from global ${b}`);
+
+scope();
