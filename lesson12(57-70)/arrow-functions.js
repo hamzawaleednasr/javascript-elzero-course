@@ -18,5 +18,5 @@ console.log(print2_1());
 let print3 = (num1, num2) => num1 + num2;
 console.log(print3(10, 20));
 
-let print4 = num => num;
+let print4 = num => num + 1;
 console.log(print4(1));
