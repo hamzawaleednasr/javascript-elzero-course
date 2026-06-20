@@ -6,6 +6,10 @@ myVar = 100;
 console.log(window.myVar);
 console.log(this.myVar);
 
+document.getElementById("b1").onclick = function () {
+  console.log(this);
+};
+
 function sayHello() {
   return this;
 }
