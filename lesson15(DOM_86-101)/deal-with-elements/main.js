@@ -8,3 +8,5 @@ newParagraph.innerHTML = "Paragraph From JS";
 
 element.prepend(newParagraph);
 element.append("Bye, bye! (FROM JS)");
+
+element.remove();
