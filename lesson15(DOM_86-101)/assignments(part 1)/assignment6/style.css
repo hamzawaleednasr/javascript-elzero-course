@@ -32,4 +32,8 @@ form {
 }
 .results .box {
   text-align: center;
+  padding: 5px 10px;
+  background-color: #FF5722;
+  color: white;
+  border-radius: 4px;
 }
