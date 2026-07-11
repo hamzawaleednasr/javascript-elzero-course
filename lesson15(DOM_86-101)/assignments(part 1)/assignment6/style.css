@@ -1,0 +1,35 @@
+*:focus {
+  outline: none;
+}
+form {
+  width: fit-content;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.input {
+  width: 20rem;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+[name="create"] {
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+.results {
+  padding: 0 15px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.results .box {
+  text-align: center;
+}
